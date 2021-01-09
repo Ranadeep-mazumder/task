@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Computer Science Research Society</title>
+  <link rel = "icon" href =  
+"Images/CSRS LOGO.png" 
+        type = "image/x-icon"/>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="CSS/bootstrap.min.css">
+  <link rel="stylesheet" href="CSS/all.css">
+  <link rel="stylesheet" href="CSS/bootnavbar.css">
+  <link rel="stylesheet" href="CSS/animate.min.css">
+  <style type="text/css">
+    .body{
+      font-size:2em;
+    }
+    .a:hover {
+      color: #337ab7;
+      text-decoration: none;
+      background-color: transparent;
+    }
+    .top_header_section {
+      background-color: #084386;
+      color: #FFF;
+      font-size:20px;
+      padding: 5px 0px;
+    }
+    .row {
+      margin-right: -155px;
+      margin-left: -155px;
+    }
+    .navbar-nav{
+      background-color: #002147;
+    }
+    .dropdown:hover>.dropdown-menu{
+      display:block;
+    }
+    .dropdown-item:hover  {
+      background-color: transparent;
+    }
+    .dropdown-toggle::after{
+      display: none;
+    }
+    .container h1{
+      color: black;
+      margin-top: 60px;
+      margin-left: -180px;
+      font-size: 40px;
+    }
+
+    .container p{
+  color: black;
+  margin-top: 30px;
+  margin-left: -170px;
+  font-size: 25px;
+
+    }
+    .carousel-inner img {
+      width: 100%;
+      margin: auto;
+      min-height:200px;
+    }
+    @media (max-width: 600px) {
+      .carousel-caption {
+        display: none; 
+      }
+    }
+    @media (min-width: 1200px)
+    .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9 {
+      float: left;
+    }
+    footer {
+      margin: 15px 0px 0px 0px;
+      background-image: url(Images/footer-background-2.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 3px 0px;
+      color: #fff;
+      font-size: 15px;
+    }
+    li a {
+      padding: 0px 0px;
+      margin: 0px;
+      color: #fff;
+      font-size: 12px;
+      line-height: 22px;
+    }
+    .noo a{
+      color:#fff;
+    }
+    footer h4 {
+      color: #f8b003;
+      margin: 0px;
+    }
+    .h4, h4 {
+      font-size: 18px;
+    }
+    footer hr {
+      border-top: 1px solid rgb(77, 83, 105);
+      margin: 10px 0px;
+    }
+    .noob  {
+      display:inline;
+      padding:5px;
+    }
+    .scl-btn {
+      padding: 15px;
+      font-size: 25px;
+      width: 55px;
+      text-align: center;
+      text-decoration: none;
+      margin:5px;
+      color: white;
+    }
+    .scl-btn:hover {
+      opacity: 0.8;
+      text-align: center;
+      text-decoration: none;
+      color: white;
+    }
+    .scl-crcl {
+      border-radius: 50%;
+    }
+    .fa-facebook-f { background: #3B5998; }
+    .fa-twitter { background: #55ACEE; }
+    .fa-linkedin-in { background: #007bb5; }
+    .fa-youtube { background: #bb0000; }
+  </style>
+</head>
+<body>
+  <div class="well top_header_section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <a href="#">
+            <i class="fas fa-home" style="color:orange"></i>
+          </a>
+          
+          <a href="Aboutus.html" style="color:white"></a>
+        </div>
+        <div class="col-lg-6 text-right">
+          <a href="#">
+            <i class="fas fa-sign-in-alt" aria-hidden="true" style="color: white"> Login</i>
+          </a>
+          <a href="#">
+            <i class="fas fa-registered" aria-hidden="true" style="color: white"> Register</i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid" style="background-color: #002147">
+    <a href="#">
+      <img src="Images/output-onlinepngtools.png" alt="Logo" class="Logo" style=" position: relative; margin-left: 250px; padding:10px">
+    </a>
+  </div>
+  <nav class="navbar navbar-expand-sm justify-content-center" style="background-color: #002147">
+    <div class="container">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown" style="margin-right: 166px; margin-left: -35px">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style="color: white; font-size: 18px;">Admission</a>
+          <ul class="dropdown-menu" style="background-color: rgba(8, 35, 70, 0.6)">
+            <li><a class="dropdown-item" href="#" style="color: white; font-size: 18px; background-color: transparent;">U.G.</a></li>
+            <li><a class="dropdown-item" href="#" style="color: white; font-size: 18px; background-color: transparent;">P.G.</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown" style="margin-right: 166px">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style="color: white; font-size: 18px;">Academic Programs</a>
+          <ul class="dropdown-menu" style="background-color: rgba(8, 35, 70, 0.6)">
+            <li class="nav-link dropdown">
+              <a class="dropdown-item dropdown-toggle" href="#" data-toggle="dropdown" style="color: white; font-size: 18px; background-color: transparent;">U.G. Curricula</a>
+              <ul class="dropdown-menu" style="background-color: rgba(8, 35, 70, 0.6)">
+                <li><a class="dropdown-item" href="#" style="color: white; font-size: 18px; background-color: transparent; margin-bottom: 20px;">Calcutta University</a></li>
+                <li><a class="dropdown-item" href="#" style="color: white; font-size: 18px; background-color: transparent; margin-bottom: 20px;">West Bengal State University</a></li>
+                <li><a class="dropdown-item" href="#" style="color: white; font-size: 18px; background-color: transparent; margin-bottom: 10px;">Maulana Abul Kalam Azad University</a></li>
+              </ul>
+            </li>
+            <li class="nav-link dropdown">
+              <a class="dropdown-item dropdown-toggle" href="#" data-toggle="dropdown" style="color: white; font-size: 18px; background-color: transparent;">P.G. Curricula</a>
+              <ul class="dropdown-menu" style="background-color: rgba(8, 35, 70, 0.6)">
+                <li><a class="dropdown-item" href="#" style="color: white; font-size: 18px; background-color: transparent; margin-bottom: 20px;">Calcutta University</a></li>
+                <a href="Pyhton Questions pdf.pdf"></a>
+                <li><a class="dropdown-item" href="#" style="color: white; font-size: 18px; background-color: transparent; margin-bottom: 20px;">West Bengal State University</a></li>
+                <li><a class="dropdown-item" href="#" style="color: white; font-size: 18px; background-color: transparent; margin-bottom: 10px;">Maulana Abul Kalam Azad University</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown" style="margin-right: 166px">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style="color: white; font-size: 18px;">Research</a>
+          <ul class="dropdown-menu" style="background-color: rgba(8, 35, 70, 0.6)">
+            <li><a class="dropdown-item" href="#" style="color: white; font-size: 18px; background-color: transparent;">Research and Development</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown" style="margin-right:166px">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style="color: white; font-size: 18px;">Student</a>
+          <ul class="dropdown-menu" style="background-color: rgba(8, 35, 70, 0.6)">
+            <li class="nav-link dropdown">
+              <a class="dropdown-item dropdown-toggle" href="#" data-toggle="dropdown" style="color: white; font-size: 18px; background-color: transparent;">Admission</a>
+              <ul class="dropdown-menu" style="background-color: rgba(8, 35, 70, 0.6)">
+                <li><a class="dropdown-item" href="#" style="color: white; font-size: 18px; background-color: transparent; margin-bottom: 20px;">Under Graduate</a></li>
+                <li><a class="dropdown-item" href="#" style="color: white; font-size: 18px; background-color: transparent; margin-bottom: 20px;">Post Graduate</a></li>
+                <li><a class="dropdown-item" href="#" style="color: white; font-size: 18px; background-color: transparent; margin-bottom: 20px;">Rules and Regulation</a></li>
+                <li><a class="dropdown-item" href="#" style="color: white; font-size: 18px; background-color: transparent; margin-bottom: 20px;">Student Achievements</a></li>
+                <li><a class="dropdown-item" href="#" style="color: white; font-size: 18px; background-color: transparent; margin-bottom: 10px;">Financial Assistance</a></li>
+              </ul>
+            </li>
+            <li class="nav-link dropdown">
+              <a class="dropdown-item dropdown-toggle" href="#" data-toggle="dropdown" style="color: white; font-size: 18px; background-color: transparent;">Students Life</a>
+              <ul class="dropdown-menu" style="background-color: rgba(8, 35, 70, 0.6)">
+                <li><a class="dropdown-item" href="#" style="color: white; font-size: 18px; background-color: transparent; margin-bottom: 20px;">Student Activity</a></li>
+                <li><a class="dropdown-item" href="#" style="color: white; font-size: 18px; background-color: transparent; margin-bottom: 10px;">Events and Festival</a></li>
+              </ul>
+            </li>
+            <li class="nav-link dropdown">
+              <a class="dropdown-item dropdown-toggle" href="#" data-toggle="dropdown" style="color: white; font-size: 18px; background-color: transparent;">Faculty</a>
+              <ul class="dropdown-menu" style="background-color: rgba(8, 35, 70, 0.6)">
+                <li><a class="dropdown-item" href="#" style="color: white; font-size: 18px; background-color: transparent;">Faculty Directory</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style="color: white; font-size: 18px;">More</a>
+          <ul class="dropdown-menu" style="background-color: rgba(8, 35, 70, 0.6)">
+            <li><a class="dropdown-item" href="#" style="color: white; font-size: 18px; background-color: transparent;">News</a></li>
+            <li><a class="dropdown-item" href="#" style="color: white; font-size: 18px; background-color: transparent;">Events</a></li>
+            <li><a class="dropdown-item" href="#" style="color: white; font-size: 18px; background-color: transparent;">Director's Desk</a></li>
+            <li><a class="dropdown-item" href="#" style="color: white; font-size: 18px; background-color: transparent;">Alumni</a></li>
+            <li><a class="dropdown-item" href="#" style="color: white; font-size: 18px; background-color: transparent;">Vision</a></li>
+            <li><a class="dropdown-item" href="#" style="color: white; font-size: 18px; background-color: transparent;">Mission</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container">
+		
+			<h1>About Us</h1>
+			
+			<p>
+				We are situated at Barasat, 13 km northeast from Kolkata Airport Gate No. 1. The institute is established on 23rd January 2020, with four students and two faculty members. On 26th January 2020, we had our first inaugural conference on which our students delivered/demonstrated on Data Optimization, Robotics, Pipeline processing, and internal management on Unix systems. 
+   				We nourish and inspire learners across the domain of Computer Science and inculcate research on interdisciplinary fields of Computer Science and Humanities.
+   				This is a non-profit organization solely dependant on donations and grants from generous souls, who share the passion for our cause.
+   			</p>
+   		</div>
+
+  <footer>
+    <div class="container footer_header">
+      <div class="row">
+        <div class="col-lg-1"> <h4>Admission</h4></div>
+        <div class="col-lg-11">
+          <ul class="footer_link">
+            <li class="noob"><a href="#" style="color: #fff;font-size: 12px;">CER</a></li>
+            <li class="noob"><a href="#" style="color: #fff;font-size: 12px;">EMBA</a></li>
+            <li class="noob"><a href="#" target="_blank" style="color: #fff;font-size: 12px;">GATE</a></li>
+            <li class="noob"><a href="#" target="_blank" style="color: #fff;font-size: 12px;">GIAN</a></li>
+            <li class="noob"><a href="#" style="color: #fff;font-size: 12px;">INTPBS</a></li>   
+            <li class="noob"><a href="#" target="_blank" style="color: #fff;font-size: 12px;">JAM</a></li>
+            <li class="noob"><a href="#" target="_blank" style="color: #fff;font-size: 12px;">JEE(Advanced)</a></li>
+            <li class="noob"><a href="#" style="color: #fff;font-size: 12px;">JPMM</a></li>   
+            <li class="noob"><a href="#" style="color: #fff;font-size: 12px;">LLB</a></li>   
+            <li class="noob"><a href="#" style="color: #fff;font-size: 12px;">LLM</a></li>   
+            <li class="noob"><a href="#" style="color: #fff;font-size: 12px;">M.Tech</a></li>   
+            <li class="noob"><a href="#" target="_blank" style="color: #fff;font-size: 12px;">MBA</a></li>
+            <li class="noob"><a href="#" style="color: #fff;font-size: 12px;">MCP</a></li>   
+            <li class="noob"><a href="#" style="color: #fff;font-size: 12px;">MIPA</a></li>   
+            <li class="noob"><a href="#" style="color: #fff;font-size: 12px;">MIPA</a></li>   
+            <li class="noob"><a href="#" style="color: #fff;font-size: 12px;">MHRM</a></li>   
+            <li class="noob"><a href="#" style="color: #fff;font-size: 12px;">Ph.D</a></li>   
+            <li class="noob"><a href="#" target="_blank" style="color: #fff;font-size: 12px;">MMST</a></li>
+            <li class="noob"><a href="#" style="color: #fff;font-size: 12px;">PDF</a></li>   
+            <li class="noob"><a href="#" style="color: #fff;font-size: 12px;">PGDBA</a></li>
+            <li class="noob"><a href="#" target="_blank" style="color: #fff;font-size: 12px;">QIP</a></li>
+          </ul>    
+        </div>
+      </div>
+      <br>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <h4>Quick Links</h4>
+          <hr>
+          <ul style="-moz-columns: 3 200px; -webkit-columns: 3 200px; columns: 3 200px; padding:0px 0px 0px 0px; margin: 0px 0px 0px 0px;">
+            <li><a href="#">Text 1</a></li>   
+            <li><a href="#">Text 2</a></li>   
+            <li><a href="#" target="_blank">Text 3</a></li>
+            <li><a href="#" target="_blank">Text 4</a></li>
+            <li><a href="#">Text 5</a></li>   
+            <li><a href="#" target="_blank">Text 6</a></li>
+            <li><a href="#" target="_blank">Text 7</a></li>
+            <li><a href="#" target="_blank">Text 8</a></li>
+            <li><a href="#" target="_blank">Text 8</a></li>
+            <li><a href="#" target="_blank">Text 9</a></li>
+            <li><a href="#" target="_blank">Text 10</a></li>
+            <li><a href="#" target="_blank">Text 11</a></li>
+            <li><a href="#">Text 12</a></li>   
+            <li><a href="#" target="_blank">Text 13</a></li>
+            <li><a href="#">Text 14</a></li>   
+            <li><a href="#" target="_blank">Text 15</a></li>
+            <li><a href="#">Text 16</a></li>   
+            <li><a href="#">Text 17</a></li>   
+            <li><a href="#" target="_blank">Text 18</a></li>
+            <li><a href="#" target="_blank">Text 19</a></li>
+            <li><a href="#">Text 20</a></li>   
+            <li><a href="#">Text 21</a></li>   
+            <li><a href="#">Text 22</a></li>   
+            <li><a href="#" target="_blank">Text 23</a></li>
+            <li><a href="#" target="_blank">Text 24</a></li>
+            <li><a href="#">Text 25</a></li>   
+            <li><a href="#" target="_blank">Text 26</a></li>
+            <li><a href="#" target="_blank">Text 27</a></li>
+            <li><a href="#" target="_blank">Text 28</a></li>
+            <li><a href="#" target="_blank">Text 29</a></li>
+          </ul>
+        </div>
+        <div class="clearfix clearfix_on_mobile"></div>
+        <div class="col-lg-3 col-md-12 col-sm-12 admission">
+          <h4>Contact Us</h4>
+          <hr>
+          <div class="footer_address">
+            <p1>
+              Computer Science Research Society<br>
+              Sumitava Biswas<br>
+              C/0 - Lt. Rama Roy<br>
+              Kolkata - Basirhat Rd, North East Kalikapur, Opposite to Shanti Bhawan, Barasat<br>
+              Kolkata - 700124<br>
+              Mobile - 6289048064/8981300743<br>
+            </p1>
+          </div>
+        </div>
+        <div class="clearfix clearfix_on_mobile"></div>
+        <div class="col-lg-3 col-md-12 col-sm-12 text-center">
+          <h4>Social Connect</h4><hr>
+          <i href="#" target="_blank" class="scl-btn scl-crcl shadow fab fa-facebook-f"></i> 
+          <a href="#" target="_blank" class="scl-btn scl-crcl shadow fab fa-twitter"></a>
+          <a href="#" target="_blank" class="scl-btn scl-crcl shadow fab fa-linkedin-in"></a> 
+          <a href="#" target="_blank" class="scl-btn scl-crcl shadow fab fa-youtube"></a> 
+          <br>
+          <br>
+          <h4>External Link</h4>
+          <hr>
+          <div class="img"><a href="https://svmcm.wbhed.gov.in/page/about.php" target="_blank"><img alt="nvsp" src="Images/logo.png" class="img-responsive" width="350px"></a></div>
+          <div class="img"> <a href="https://ugcnet.nta.nic.in/webinfo/public/home.aspx" target="_blank"><font size="" color="white"><b>NET</font></a></b></div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <hr>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-md-12">
+          © 2020 Computer Science Research Society
+        </div>
+        <div class="col-lg-6 col-md-6 col-md-12 text-right bootomtext">
+          <div class="noo">
+            <a href="#" class="">Link 1</a> | 
+            <a href="#">Link 2</a> | 
+            <a href="#">Link 3</a> | 
+            <a target="_blank" href="#">Link 4</a> | 
+            <a href="#">Link 5</a> | 
+            <a href="#">Link 6</a> |
+          </div> 
+        </div>
+      </div>
+    </div>               
+  </footer>
+  <script src="JS/jquery.min.js"></script>
+  <script src="JS/popper.min.js"></script>
+  <script src="JS/bootstrap.min.js"></script>
+  <script src="JS/bootnavbar.js"></script>
+</body>
+</html>
